@@ -1,0 +1,42 @@
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-header {
+    background-color: #f0f0f0;
+    display: flex;
+    border-bottom: 1px solid #ddd;
+}
+
+.cell {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border-right: 1px solid #ddd;
+}
+
+.cell:last-child {
+    border-right: none;
+}
+
+.table-data {
+    display: flex;
+    flex-direction: column;
+}
+
+.table-data .row {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+}
+
+.row .cell {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border-right: 1px solid #ddd;
+}
+
+.row .cell:last-child {
+    border-right: none;
+}
